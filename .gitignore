@@ -1,34 +1,8 @@
-# Gradle files
-.gradle/
+.gradle
 build/
-gradle-app.setting
-!gradle-wrapper.jar
-.gradletasknamecache
-
-# IntelliJ IDEA files
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-
-# Kotlin files
-*.class
-*.log
-*.ctxt
-.mtj.tmp/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-hs_err_pid*
-replay_pid*
-
-# Cache files
-github_users_cache.json
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
